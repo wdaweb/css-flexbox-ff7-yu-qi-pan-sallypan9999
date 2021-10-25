@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: DFKai-sb;
+    text-align: center;
+    /* margin: auto; */
+
+}
+
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 720px;
+    height: 800px;
+    border: 1px solid rgb(170, 165, 165);
+    position: relative;
+}
+
+#chess{
+    width: 720px;
+    height: 800px;
+    position: absolute;
+}
+
+#b-nine{
+    width: 720px;
+    display: flex;
+    justify-content: space-around;  
+    position: absolute;
+    top: 10px;
+
+}
+
+#no-name{
+    width: 680px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 254px;
+    left: 20px;
+}
+
+#bag{
+    width: 520px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 176px;
+    left: 100px;
+}
+
+
+.black{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 60px;
+    background: #fff;
+    font-size: 40px;
+}
+
+/* 楚河漢界 */
+
+.red{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 60px;
+    color: red;
+    background: #fff;
+    font-size: 40px;
+
+}
+
+#soldier{
+    width: 680px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 254px;
+    left: 20px;
+}
+
+#gun{
+    width: 520px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 176px;
+    left: 100px;
+}
+
+#r-nine{
+    width: 720px;
+    display: flex;
+    justify-content: space-around;  
+    position: absolute;
+    bottom: 10px;
+}
+
+h1{
+    writing-mode: vertical-lr;
+    margin: 0 30px;
+    font-size: 40px;
+}
+
+h2{
+    font-size: 3em;
+}
+
+
+table{
+    width: 640px;   
+    height: 720px;
+    margin: 40px;
+    border: 1px solid rgb(170, 165, 165);
+    border-spacing: 0;
+    
+}
+
+td{
+width: 80px;
+height: 80px;
+padding: 0;
+border: 1px solid rgb(170, 165, 165);
+}
+
+.gradient{
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(45deg,#fff 50%,#000 50%,#000 51%,#fff 51% );
+}
+
+.gradient1{
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(-45deg,#fff 50%,#000 50%,#000 51%,#fff 51% );
+}
+
+
+

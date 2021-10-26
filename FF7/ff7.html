@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url(./images/bg-full.jpg) no-repeat center/cover;
+      }
+
+      .col {
+        width: 80%;
+        height: 80%;
+        display: flex;
+        justify-content: flex-start;
+      }
+
+      .row1 {
+        width: 50%;
+        height: 100%;
+        background: url(./images/main.jpg) no-repeat center/cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: center;
+      }
+
+      .row1 img {
+        width: 30%;
+        height: 47%;
+      }
+      .text {
+        text-align: center;
+        color: white;
+      }
+
+      .row2 {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .pag1 {
+        width: 100%;
+        height: 50%;
+        background-color: #aaa;
+        display: flex;
+        align-items: center;
+        font-size: 1rem;
+      }
+
+      .pag1 img {
+        width: 40%;
+        height: 100%;
+      }
+      .text1 {
+        padding-left: 20px;
+      }
+      .pag2 {
+        width: 100%;
+        height: 50%;
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+      }
+
+      .pag2 img {
+        width: 40%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="col">
+        <div class="row1">
+          <img src="./images/ps4-ff7.png" />
+          <div class="text">
+            <h2>AVAILABLE NOW</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              culpa expedita, maxime omnis unde possimus quas! Amet molestias,
+              odio non, molestiae, quos quo possimus ea labore magnam asperiores
+              sequi illo.
+            </p>
+          </div>
+        </div>
+        <div class="row2">
+          <div class="pag1">
+            <div class="text1">
+              <h2>Cloud</h2>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Quibusdam omnis reprehenderit at excepturi accusantium et
+                aperiam cupiditate nulla. At, possimus?
+              </p>
+            </div>
+            <img src="./images/cloud.png" />
+          </div>
+          <div class="pag2">
+            <img src="./images/tifa.png" />
+            <div class="text2">
+              <h2>Tifa</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                quaerat doloremque natus, sunt asperiores vero molestias. Totam
+                modi quae officia!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
